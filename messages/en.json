@@ -1,7 +1,13 @@
 {
   "Sidebar": {
-    "home": "Home",
-    "statistics": "Statistics",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "agentQueueManagment": "Agent Queue Management",
+    "ivrConfigration": "IVR Configration",
+    "reports": "Reports",
+    "shifts": "Shifts",
+    "channels": "Channels",
+    "coSettings": "Co-Settings",
     "calender": "Calender",
     "logout": "Log out"
   },

@@ -1,7 +1,13 @@
 {
   "Sidebar": {
-    "home": "الرئيسية",
-    "statistics": "الاحصائيات",
+    "dashboard": "داشبورد",
+    "users": "المستخدمون",
+    "agentQueueManagment": "ادارة العملاء",
+    "ivrConfigration": "تكوين اي في ار",
+    "reports": "التقارير",
+    "shifts": "الدوريات",
+    "channels": "القنوات",
+    "coSettings": "مساعد ادارة",
     "calender": "المواعيد",
     "logout": "تسجيل الخروج"
   },

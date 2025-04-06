@@ -27,7 +27,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/dashboard",
-    "app/charts"
+    "app/agentQueueManagment"
   ],
   "exclude": ["node_modules"]
 }

@@ -2,7 +2,18 @@
 
 import * as React from "react";
 import Image from "next/image";
-import { Calendar, Home, Inbox, LogOut, ChartBar } from "lucide-react";
+import {
+  Calendar,
+  Home,
+  Inbox,
+  LogOut,
+  ChartBar,
+  User2Icon,
+  ListMusicIcon,
+  Repeat,
+  ReplyIcon,
+  Repeat1Icon,
+} from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -37,8 +48,18 @@ export function AppSidebar({
   const pathname = usePathname();
 
   const items = [
-    { title: t("home"), url: "/", icon: Home },
-    { title: t("statistics"), url: "/charts", icon: ChartBar },
+    { title: t("dashboard"), url: "/", icon: Home },
+    { title: t("users"), url: "/users", icon: User2Icon },
+    {
+      title: t("agentQueueManagment"),
+      url: "/agentQueueManagment",
+      icon: ListMusicIcon,
+    },
+    { title: t("ivrConfigration"), url: "/ivrConfigration", icon: Repeat },
+    { title: t("reports"), url: "/reports", icon: ReplyIcon },
+    { title: t("shifts"), url: "/shifts", icon: Repeat1Icon },
+    { title: t("channels"), url: "/channels", icon: Repeat },
+    { title: t("coSettings"), url: "/coSetting", icon: Repeat },
   ];
 
   const MenuLink = React.forwardRef<
